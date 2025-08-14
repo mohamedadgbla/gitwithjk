@@ -1,0 +1,14 @@
+name: tut1
+on : push 
+jobs:
+    say-hello:
+      runs-on : ubuntu -latest
+      steps: 
+        - name: says Hello
+          run: echo "Hello wold"
+    say-hi:
+      runs-on : ubuntu -latest
+      steps: 
+        - name: says Hello
+          run: echo "Hello wold"      
+       
